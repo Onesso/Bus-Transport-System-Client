@@ -1,0 +1,119 @@
+.active {
+  text-decoration: underline !important;
+  text-decoration-thickness: 3px !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.card-button {
+  border-radius: 0px;
+}
+
+.hoverable:hover {
+  transition: 0.3s;
+  transform: scale(1.02);
+  box-shadow: 1px 1px 20px rgb(31, 31, 31);
+}
+
+.ml-1 {
+  margin-left: 50px;
+}
+
+.height {
+  min-height: auto;
+}
+
+.backg {
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  align-items: center;
+  position: relative;
+  padding: 15px;
+  width: 100%;
+}
+.wrap-contact100 {
+  width: 550px;
+  background-color: transparent;
+  padding: 50px 0px 160px 0px;
+}
+
+.formStyle {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: inherit;
+}
+
+.title {
+  display: block;
+  font-family: Ubuntu-Bold;
+  font-size: 30px;
+  color: #403866;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 49px;
+}
+
+.input100 {
+  position: relative;
+  display: block;
+  width: 100%;
+  background: #fff;
+  border-radius: 31px;
+  font-family: Ubuntu-Bold;
+  font-size: 18px;
+  color: #8f8fa1;
+  line-height: 1.2;
+  padding-right: 35px;
+  padding-left: 35px;
+  height: 62px;
+  margin-bottom: 20px;
+}
+.textarea {
+  height: 79px;
+  min-height: 169px;
+  padding: 19px 35px 0 35px;
+}
+
+.wraper {
+  width: 550px;
+  background: transparent;
+  padding: 50px 0px 160px 0px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  display: block;
+}
+
+.btn-style {
+  height: 19px;
+  padding: 0 20px;
+  min-width: 150px;
+  height: 62px;
+  background-color: #827ffe;
+  border-radius: 31px;
+  font-family: Ubuntu-Bold;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-left: 200px;
+}
+.form-control {
+  width: 250px !important;
+}
+
+
