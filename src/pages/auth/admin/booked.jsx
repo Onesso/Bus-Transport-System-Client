@@ -45,7 +45,7 @@ export default function Booked () {
          <AdminMenu />
        </div>
        <div className="col-md-9">
-         <div className="p-3 mt-2 mb-2 h5 bg-light"> Orders</div>
+         <div className="p-3 mt-2 mb-2 h5 bg-light"> Booked</div>
          {travelHistory?.map((h, index) => {
            return (
              <table className="table">
